@@ -1,0 +1,37 @@
+version: "3.6"
+
+services:
+ db:
+    container_name: ${POSTGRES_HOST}
+    image: postgres:latest
+    volumes:
+      - .volumes/postgres_volume:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+    expose:
+      - ${POSTGRES_PORT}
+
+ web:
+    build:
+      context: .
+      dockerfile: _prod/backend/Dockerfile
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./:/code
+    ports:
+      - ${NGINX_EXPOSE}:8000
+    depends_on:
+      - db
+
+ redis_cache:
+   image: redis:latest
+   ports:
+     - ${REDIS_PORT}:6379
+   volumes:
+     - .volumes/redis_volume:/data
+
+
+volumes:
+  db_new:

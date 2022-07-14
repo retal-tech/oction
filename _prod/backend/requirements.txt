@@ -1,0 +1,17 @@
+django>=4.0.0
+python-dotenv
+psycopg2-binary
+gunicorn
+pytest-django
+pillow
+django-ckeditor
+django-taggit
+django-jalali-date
+requests
+pydrive
+redis
+hiredis
+django-prometheus
+django-recaptcha
+django-rosetta
+django-parler

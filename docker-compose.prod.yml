@@ -1,0 +1,72 @@
+version: "3.6"
+
+services:
+ db:
+    image: postgres:latest
+    volumes:
+      - .volumes/postgres_volume:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+    expose:
+      - ${POSTGRES_PORT}
+
+ backend:
+    build:
+      context: .
+      dockerfile: _prod/backend/Dockerfile
+    command: >
+     bash -c "gunicorn ${APP_NAME}.wsgi:application --workers=5  --bind 0.0.0.0:8000"
+    volumes:
+      - .:/code
+      - ./_static:/code/_static
+      - ./_media:/code/_media
+    expose:
+      - 8000
+    depends_on:
+      - db
+
+ nginx:
+   build:
+     context: .
+     dockerfile: _prod/nginx/Dockerfile
+   ports:
+     - ${NGINX_EXPOSE}:80
+   depends_on:
+     - backend
+   volumes:
+     - ./_static:/code/_static
+     - ./_media:/code/_media
+     - ./_prod/nginx/conf.d:/etc/nginx/conf.d/
+
+
+ redis_cache:
+   image: redis:latest
+   ports:
+     - ${REDIS_PORT}:6379
+   depends_on:
+     - db
+
+ prometheus:
+   image: prom/prometheus:v2.14.0
+   volumes:
+     - ./_prod/monitoring/prometheus/:/etc/prometheus/
+   command:
+     - --config.file=/etc/prometheus/prometheus.yml
+   expose:
+     - 9090
+
+ grafana:
+   image: grafana/grafana:6.5.2
+   environment:
+     - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_PASSWORD}
+     - GF_SECURITY_ADMIN_USER=${GRAFANA_USER}
+   expose:
+     - 3000
+
+
+volumes:
+  db_new:
+  _static:
+  _media:

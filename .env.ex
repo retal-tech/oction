@@ -1,5 +1,5 @@
 # Application
-APP_NAME="trt"
+APP_NAME="oction"
 
 
 

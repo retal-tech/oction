@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 from dotenv import load_dotenv
 from os import environ
+import os
 from django.utils.translation import gettext_lazy as _
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -28,10 +29,13 @@ SECRET_KEY = environ.get("DJANGO_SECRET_KEY", None)
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = int(environ.get("DJANGO_DEBUG_MODE", 0))
+UNDER_MAINTENANCE = int(environ.get("DJANGO_UNDER_MAINTENANCE", 0))
 
 ALLOWED_HOSTS = environ.get("DJANGO_ALLOWED_HOST").split(" ")
+CSRF_TRUSTED_ORIGINS = environ.get("DJANGO_ALLOWED_CSRF").split(" ")
 
 # Application definition
+SITE_ID = 1
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -40,27 +44,38 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'captcha',
     'rosetta',
     'parler',
+    # Apps
+    'landing',
 ]
 
 MIDDLEWARE = [
+    'django.middleware.cache.UpdateCacheMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    'django.middleware.cache.FetchFromCacheMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django_prometheus.middleware.PrometheusBeforeMiddleware',
+    'django_prometheus.middleware.PrometheusAfterMiddleware',
+        'django.middleware.locale.LocaleMiddleware',
 ]
 
-ROOT_URLCONF = f'{environ.get("APP_NAME", "application")}.urls'
+if UNDER_MAINTENANCE:
+    ROOT_URLCONF = f'{environ.get("APP_NAME", "application")}.UnderDevelopment'
+else:
+    ROOT_URLCONF = f'{environ.get("APP_NAME", "application")}.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [str(BASE_DIR) + '/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -88,6 +103,18 @@ DATABASES = {
         "PORT": environ.get("POSTGRES_PORT"),
     }
 }
+
+if os.environ.get('GITHUB_WORKFLOW'):
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': 'github_actions',
+            'USER': 'postgres',
+            'PASSWORD': 'postgres',
+            'HOST': '127.0.0.1',
+            'PORT': '5432',
+        }
+    }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
@@ -124,27 +151,56 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = "/_static/"
-STATIC_ROOT = BASE_DIR / "_static"
+
+if DEBUG:
+    STATICFILES_DIRS = [
+        BASE_DIR / "_static/"
+    ]
+    STATIC_ROOT = BASE_DIR / '_statics/'
+else:
+    STATIC_ROOT = BASE_DIR / "_static/"
 
 MEDIA_URL = "/_media/"
-MEDIA_ROOT = BASE_DIR / "_media"
+MEDIA_ROOT = BASE_DIR / "_media/"
+
+# CKEditor settings
+CKEDITOR_UPLOAD_PATH = BASE_DIR / "_media/posts/"
+CKEDITOR_JQUERY_URL = '//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'full',
+    },
+}
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+LOGIN_URL = 'login'
+LOGOUT_REDIRECT_URL = 'home'
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.redis.RedisCache',
+        'LOCATION': f'redis://redis_cache:{os.environ.get("REDIS_PORT")}',
+    }
+}
+
+# Recaptcha settings
+RECAPTCHA_PUBLIC_KEY = environ.get("RECAPTCHA_PUBLIC_KEY")
+RECAPTCHA_PRIVATE_KEY = environ.get("RECAPTCHA_PRIVATE_KEY")
+RECAPTCHA_USE_SSL = True
+
 
 # Internationalization
 
 LANGUAGES = (
     ('en', _('English')),
-    ('fa', _('Farsi')),
 )
 
 PARLER_LANGUAGES = {
     None: (
         {'code': 'en', },
-        {'code': 'fa', },
     ),
     'default': {
         'fallbacks': ['en'],
@@ -155,19 +211,3 @@ PARLER_LANGUAGES = {
 LOCALE_PATHS = [
     BASE_DIR / 'locale/',
 ]
-
-# Caches
-
-CACHES = {
-    'default': {
-        'BACKEND': 'django.core.cache.backends.redis.RedisCache',
-        'LOCATION': f'redis://redis_cache:{environ.get("REDIS_PORT")}',
-    }
-}
-
-# Recaptcha settings
-RECAPTCHA_PUBLIC_KEY = environ.get("RECAPTCHA_PUBLIC_KEY")
-RECAPTCHA_PRIVATE_KEY = environ.get("RECAPTCHA_PRIVATE_KEY")
-RECAPTCHA_USE_SSL = True
-
-

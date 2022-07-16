@@ -64,7 +64,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django_prometheus.middleware.PrometheusBeforeMiddleware',
     'django_prometheus.middleware.PrometheusAfterMiddleware',
-        'django.middleware.locale.LocaleMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
 ]
 
 if UNDER_MAINTENANCE:
@@ -179,12 +179,13 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_URL = 'login'
 LOGOUT_REDIRECT_URL = 'home'
 
-CACHES = {
-    'default': {
-        'BACKEND': 'django.core.cache.backends.redis.RedisCache',
-        'LOCATION': f'redis://redis_cache:{os.environ.get("REDIS_PORT")}',
+if not DEBUG:
+    CACHES = {
+        'default': {
+            'BACKEND': 'django.core.cache.backends.redis.RedisCache',
+            'LOCATION': f'redis://redis_cache:{os.environ.get("REDIS_PORT")}',
+        }
     }
-}
 
 # Recaptcha settings
 RECAPTCHA_PUBLIC_KEY = environ.get("RECAPTCHA_PUBLIC_KEY")
@@ -196,11 +197,13 @@ RECAPTCHA_USE_SSL = True
 
 LANGUAGES = (
     ('en', _('English')),
+    ('ar', _('Arabic')),
+
 )
 
 PARLER_LANGUAGES = {
     None: (
-        {'code': 'en', },
+        {'code': 'en'},
     ),
     'default': {
         'fallbacks': ['en'],

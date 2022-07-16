@@ -1,0 +1,30 @@
+{%load static%}
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <title>
+        {%block title%}
+        {%endblock%}
+    </title>
+  <link href="{%static 'css/main.css' %}" rel="stylesheet">
+
+<link rel="shortcut icon" href="_/media/Oticon%20US/shared/favico/favicon.ico" type="image/x-icon" />
+</head>
+<body class=" mode-normal lang-en">
+
+
+
+    <div id="wrapper" class="wrapper">
+        {%block content%}
+        {%endblock%}
+    </div>
+
+
+<script src="{% static 'js/main.js' %}"></script>
+<link type="text/css" rel="stylesheet" href="{% static 'css/style-cf.css'%}" />
+
+
+
+</body>
+
+</html>

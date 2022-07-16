@@ -151,7 +151,6 @@ dmypy.json
 cython_debug/
 
 # Prod
-_static/
 _media/
 *.sqlite
 *.sqlite3

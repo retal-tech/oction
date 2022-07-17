@@ -1,0 +1,154 @@
+{% load i18n %}
+{% load static %}
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="content" class="content main clearfix">
+    <div class="row">
+        <div class="grid-12">
+
+            <div class="component intro-banner white-txt w50 middle-grey-bg"  data-tracking-name="Hearing aids and accessories" >
+                <div class="component-content">
+
+                    <div class="intro-banner-image" data-mobile-image="{% static 'img/products-1.jpg' %}" data-mobile-image-height="500" data-mobile-image-width="800" data-mobile-image-alt-text="portfolio-banner-image-mobile-800x500">
+                        <img src="{% static 'img/products-1-desktop.jpg' %}" alt="Oticon hearing aid in hand" width="1920" height="500" />
+                    </div>
+
+
+                    <div class="intro-banner-content">
+                        <div class="outer-pos-wrapper">
+                            <div class="inner-pos-wrapper">
+                                <div class="intro-banner-text"><h1>{% trans 'Hearing aids and accessories' %}</h1>
+                                    <p>{% trans 'Life-changing technology designed to empower people with hearing loss' %}</p></div>
+                                <div class="intro-banner-link"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="component rich-text w70 with-padding" >
+                <div class="component-content">
+
+                    <p style="text-align: center;">
+                        <strong>
+                            {% trans 'All of our hearing solutions are built with our philosophy and have been designed to support your brain&rsquo;s natural process of making sense of sound. We offer a complete range of products to support a variety of hearing needs.' %}
+                        </strong>
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="component text-image-spot tforceheight inoborder iright lighter-grey-bg"  data-tracking-name="Expanded Oticon Solutions " >
+                <div class="component-content">
+
+
+                    <div class="text-image-spot-image-container">
+
+                        <div class="text-image-spot-image">
+                            <img src="{% static 'img/products-2.jpg' %}" alt="oticon-product-lineup-1200x780-v2" width="1200" height="788" />
+
+                        </div>
+                    </div>
+
+                    <div class="text-image-spot-text-container">
+                        <div class="text-image-spot-text"><br />
+                            <br />
+                            <h2 style="text-align: left;">{% trans 'Expanded Oticon solutions for everyone' %}</h2>
+                            <p>{% trans 'At Oticon, we never stop pushing the boundaries of what&rsquo;s possible. Building on our BrainHearing&trade; philosophy, all of our solutions are designed to provide access to the full sound scene, which allows the brain to work in a more natural way. We not only revolutionized hearing care with Oticon More&trade;, but we&rsquo;re also introducing new hearing aid families and styles designed to help you enjoy a life full of sound. ' %}</p>
+                            <br />
+                            <br /></div>
+                    </div>
+
+
+                    <div class="clearfix"></div>
+
+
+                </div>
+            </div>
+
+            <a id="more" class="anchor"  ></a>
+
+            <div class="component text-image-spot lighter-grey-bg inoborder iposmiddle tposmiddle tforceheight"  data-tracking-name="More Potential than ever" >
+                <div class="component-content">
+
+
+                    <div class="text-image-spot-image-container">
+
+                        <div class="text-image-spot-image">
+                            <img src="{% static 'img/products-3.gif' %}" alt="award-badges-1200x788-v3" width="1200" height="788" />
+
+                        </div>
+                    </div>
+
+                    <div class="text-image-spot-text-container">
+                        <div class="text-image-spot-text"><br />
+                            <h2 style="text-align: left;">{% trans 'More potential than ever' %}</h2>
+                            <p>{% trans 'With Oticon More, you get superior sound quality, now with more styles and options. Choose what suits your lifestyle- a miniRITE T or NEW miniBTE T with disposable batteries or a miniRITE R or NEW miniBTE R rechargeable style for overnight charging. With more styles, features and charging options, you can get more out of life.' %}</p>
+                    </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="component rich-text " >
+                <div class="component-content">
+
+                    <br />
+                    <br />
+
+                </div>
+            </div>
+
+            <div class="component rich-text margin2" >
+                <div class="component-content">
+
+                    <h2 style="text-align: center;">{% trans 'Life-changing technology' %}</h2>
+
+                </div>
+            </div>
+
+            <a id="portfolio" class="anchor"  ></a>
+
+            {% for portfolio_box in portfolio %}
+                <div class="component image-spot with-padding"  >
+                    <div class="component-content">
+                        <ul class="image-spot-elements">
+                            {% for portfolio in portfolio_box %}
+                                <li class="image-spot-element">
+
+                                <div class="image-spot-element-image" id="opns-ha-style">
+                                    <img src="{{ portfolio.image.url }}" alt="solutions-opn-s-382x382" width="382" height="382" />
+
+                                </div>
+                                <div class="image-spot-element-header">
+                                    <p class="bigger"><strong>{{ portfolio.title }}</strong></p>
+                                </div>
+                                <div class="image-spot-element-text">
+                                    <p>{{ portfolio.description }}</p>
+                                </div>
+                                <div class="image-spot-element-link">
+                                    <a class="button" href="{{ portfolio.url }}" target="_parent">{% trans 'Read More' %}</a>
+                                </div>
+
+
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            {% endfor %}
+
+
+
+{% include 'landing/inc/mission.html' %}
+
+
+        </div>
+    </div>
+</div>

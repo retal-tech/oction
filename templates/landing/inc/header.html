@@ -1,50 +1,50 @@
 {% load i18n %}
-{%load static  %}
+{% load static %}
 <div id="header" class="header main clearfix">
     <div class="row">
         <div class="grid-12">
-            
-
-<div class="component link " >
-<div class="component-content">
-    <a class="logo" href="{% url 'home' %}">
-        <img src="{%static 'img/logo2.png' %}">
-    </a>
-</div>
-</div>
-<div class="component link nav-expander" >
-<div class="component-content">
 
 
-</div>
-</div>
-<div class="component link-list nav no-data-source" >
-<div class="component-content">
+            <div class="component link ">
+                <div class="component-content">
+                    <a class="logo" href="{% url 'home' %}">
+                        <img src="{% static 'img/logo2.png' %}">
+                    </a>
+                </div>
+            </div>
+            <div class="component link nav-expander">
+                <div class="component-content">
 
-<ul>
-        <li class="item2 odd">
-            <a title="{% trans 'Home'%}" href="{%url 'home'%}">{% trans 'Home' %}</a>
-        </li>
-        <li class="item3 even">
-            <a title="{% trans 'About us'%}" href="{%url 'about-us'%}">{% trans 'About us' %}</a>
-        </li>
-    
-        <li class="item4 odd">
-            <a title="{% trans 'Products'%}" href="{% url 'products' %}">{% trans 'Products' %}</a>
-        </li>
 
-    </ul>
-</div>
-</div>
-<div class="component search-field-spot no-data-source">
-<div class="component-content">
+                </div>
+            </div>
+            <div class="component link-list nav no-data-source">
+                <div class="component-content">
 
-<div class="search-field">
-    <input type="text" value=""/>
-    <div class="search-icon"></div>
-</div>
-</div>
-</div>
+                    <ul>
+                        <li class="item2 odd">
+                            <a title="{% trans 'Home' %}" href="{% url 'home' %}">{% trans 'Home' %}</a>
+                        </li>
+                        <li class="item3 even">
+                            <a title="{% trans 'About us' %}" href="{% url 'about-us' %}">{% trans 'About us' %}</a>
+                        </li>
+
+                        <li class="item4 odd">
+                            <a title="{% trans 'Products' %}" href="{% url 'products' %}">{% trans 'Products' %}</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="component search-field-spot no-data-source">
+                <div class="component-content">
+
+                    <div class="search-field">
+                        <input type="text" value=""/>
+                        <div class="search-icon"></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

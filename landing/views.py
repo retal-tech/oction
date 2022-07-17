@@ -25,7 +25,9 @@ class LandingView(FormView):
         Make an dictionary of data
         """
         context = super().get_context_data()
-        context['portfolio'] = Projects.objects.all()
+        # Send portfolio partition by 4
+        projects = Projects.objects.all()
+        context['portfolio'] = [projects[i:i + 4] for i in range(0, len(projects), 4)]
         return context
 
     def form_valid(self, form):
@@ -45,6 +47,42 @@ class LandingView(FormView):
         print("Form is invalid")
         print(form.errors)
         return super().form_invalid(form)
+
+
+class AboutusView(FormView):
+    """
+    Landing View, using template from trt/templates
+    """
+    template_name = "landing/about-us.html"
+    form_class = ContactForm
+    success_url = reverse_lazy('about-us')
+
+    def get_context_data(self, **kwargs):
+        """
+        Make an dictionary of data
+        """
+        context = super().get_context_data()
+        context['portfolio'] = Projects.objects.all()
+        return context
+
+
+class ProductsView(FormView):
+    """
+    Landing View, using template from trt/templates
+    """
+    template_name = "landing/products.html"
+    form_class = ContactForm
+    success_url = reverse_lazy('products')
+
+    def get_context_data(self, **kwargs):
+        """
+        Make an dictionary of data
+        """
+        context = super().get_context_data()
+        # Send portfolio partition by 4
+        projects = Projects.objects.all()
+        context['portfolio'] = [projects[i:i + 4] for i in range(0, len(projects), 4)]
+        return context
 
 
 def handler500(request, *args, **argv):

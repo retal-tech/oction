@@ -9,14 +9,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-18 10:09+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2022-07-18 10:10+0000\n"
+"Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Translated-Using: django-rosetta 0.9.8\n"
 
 #: landing/forms.py:13
 msgid "Name"
@@ -80,8 +81,8 @@ msgstr ""
 
 #: templates/landing/inc/about-us-content.html:60
 msgid ""
-" Oticon recently made a donation to the AAAF Empowering Students Scholarship "
-"Fund to support Black students on their journey to becoming audiologists. "
+" Oticon recently made a donation to the AAAF Empowering Students Scholarship"
+" Fund to support Black students on their journey to becoming audiologists. "
 msgstr ""
 
 #: templates/landing/inc/about-us-content.html:83
@@ -91,8 +92,8 @@ msgstr ""
 
 #: templates/landing/inc/about-us-content.html:85
 msgid ""
-"Nominate an outstanding person with hearing loss for the 2022 awards&nbsp;"
-"program. "
+"Nominate an outstanding person with hearing loss for the 2022 "
+"awards&nbsp;program. "
 msgstr ""
 
 #: templates/landing/inc/about-us-content.html:121
@@ -112,8 +113,8 @@ msgstr ""
 msgid ""
 "The non-profit Oticon Hearing Foundation aims to foster a &lsquo;community "
 "of caring&rsquo; among hearing care professionals that empowers them to "
-"bring sustainable&nbsp;hearing care to people in need and communities around "
-"the world."
+"bring sustainable&nbsp;hearing care to people in need and communities around"
+" the world."
 msgstr ""
 
 #: templates/landing/inc/about-us-content.html:197
@@ -162,9 +163,9 @@ msgstr ""
 #: templates/landing/inc/content.html:272
 msgid ""
 "Opn S takes the open sound experience to the next level, offering more "
-"flexibility for you and more choices for your patients. Powered by the Velox "
-"S™ platform, Opn S allows patients to enjoy speech understanding on par with "
-"normal hearing. *"
+"flexibility for you and more choices for your patients. Powered by the Velox"
+" S™ platform, Opn S allows patients to enjoy speech understanding on par "
+"with normal hearing. *"
 msgstr ""
 
 #: templates/landing/inc/content.html:289
@@ -174,9 +175,7 @@ msgstr ""
 #: templates/landing/inc/content.html:317
 msgid ""
 "\n"
-"                                    Oticon Siya in-the-ear hearing aids "
-"capture and amplify the natural, rich details of sounds. They help improve "
-"your speech understanding, so you can experience the joy of everyday life.\n"
+"                                    Oticon Siya in-the-ear hearing aids capture and amplify the natural, rich details of sounds. They help improve your speech understanding, so you can experience the joy of everyday life.\n"
 "                                    <br>\n"
 "                                    <br>\n"
 "                                    Oticon Siya highlights: <br>\n"
@@ -264,8 +263,8 @@ msgstr ""
 msgid ""
 "All of our hearing solutions are built with our philosophy and have been "
 "designed to support your brain&rsquo;s natural process of making sense of "
-"sound. We offer a complete range of products to support a variety of hearing "
-"needs."
+"sound. We offer a complete range of products to support a variety of hearing"
+" needs."
 msgstr ""
 
 #: templates/landing/inc/products-content.html:61

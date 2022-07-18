@@ -1,5 +1,7 @@
 {% load i18n %}
 {% load static %}
+{% get_current_language as CURRENT_LANGUAGE %}
+
 <div id="header" class="header main clearfix">
     <div class="row">
         <div class="grid-12">
@@ -30,19 +32,13 @@
                         </li>
 
                         <li class="item4 odd">
-                            <a title="{% trans 'Products' %}" href="{% url 'products' %}">{% trans 'Products' %}</a>
+                            <a title="{% trans 'Products' %}" href="{% url 'products' %}">{% trans 'Products' %}}</a>
                         </li>
-
+                        <li class="item5 odd">
+                            <a {%if CURRENT_LANGUAGE == "ar" %}style="display:none"{%endif%} href="/ar/" ><img width="31px"  src="{%static 'img/ae.png' %}""></a>
+                            <a {%if CURRENT_LANGUAGE == "en" %}style="display:none"{%endif%} href="/en"  ><img width="31px"  src="{%static 'img/gb.png' %}""></a>
+                        </li>
                     </ul>
-                </div>
-            </div>
-            <div class="component search-field-spot no-data-source">
-                <div class="component-content">
-
-                    <div class="search-field">
-                        <input type="text" value=""/>
-                        <div class="search-icon"></div>
-                    </div>
                 </div>
             </div>
         </div>

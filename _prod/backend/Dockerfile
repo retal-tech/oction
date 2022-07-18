@@ -12,7 +12,7 @@ ENV PYTHONUNBUFFERED 1
 COPY . .
 
 RUN apt-get update \
-    && apt-get install -y gcc python3-dev musl-dev netcat
+    && apt-get install -y gcc python3-dev musl-dev netcat gettext
 
 RUN pip install --upgrade pip && pip install  -r _prod/backend/requirements.txt
 

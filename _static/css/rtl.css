@@ -1,0 +1,24 @@
+/*
+Make all text rtl and use the rtl font.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;700&display=swap');
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd
+{
+    direction: rtl!important;
+    text-align: right!important;
+}
+* {
+    font-family: 'Noto Naskh Arabic', sans-serif!important;
+}

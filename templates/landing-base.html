@@ -1,4 +1,7 @@
 {% load static %}
+{% load i18n %}
+{% get_current_language as CURRENT_LANGUAGE %}
+
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
@@ -7,7 +10,9 @@
         {% endblock %}
     </title><meta http-equiv="X-UA-Compatible" content="IE=Edge" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta charset="utf-8" /><meta name="format-detection" content="telephone=no" />
     <link href="{% static 'css/main.css' %}" rel="stylesheet">
-
+     {%if CURRENT_LANGUAGE == "ar" %}
+         <link href="{% static 'css/rtl.css' %}" rel="stylesheet">
+     {% endif %}
     <link rel="shortcut icon" href="_/media/Oticon%20US/shared/favico/favicon.ico" type="image/x-icon"/>
 </head>
 <body class=" mode-normal lang-en">

@@ -81,7 +81,7 @@ class ProductsView(FormView):
         context = super().get_context_data()
         # Send portfolio partition by 4
         projects = Projects.objects.all()
-        context['portfolio'] = [projects[i:i + 4] for i in range(0, len(projects), 4)]
+        context['projects'] = projects
         return context
 
 

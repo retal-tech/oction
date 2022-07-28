@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-24 09:32+0000\n"
+"POT-Creation-Date: 2022-07-28 20:47+0000\n"
 "PO-Revision-Date: 2022-07-23 10:49+0000\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -134,7 +134,6 @@ msgid "Oticon&nbsp;More&trade;"
 msgstr ""
 
 #: templates/landing/inc/content.html:56
-#: templates/landing/inc/products-content.html:90
 msgid "More potential than ever"
 msgstr ""
 
@@ -234,16 +233,16 @@ msgstr ""
 msgid "Get Connected"
 msgstr ""
 
-#: templates/landing/inc/header.html:28
+#: templates/landing/inc/header.html:29
 #, fuzzy
 msgid "Home"
 msgstr "homeeee"
 
-#: templates/landing/inc/header.html:31
+#: templates/landing/inc/header.html:32
 msgid "About us"
 msgstr ""
 
-#: templates/landing/inc/header.html:35
+#: templates/landing/inc/header.html:36
 msgid "Products"
 msgstr ""
 
@@ -262,49 +261,12 @@ msgid ""
 "assurance of high-quality and authentic product distribution in UAE."
 msgstr ""
 
-#: templates/landing/inc/products-content.html:24
-msgid "Hearing aids and accessories"
+#: templates/landing/inc/products-content.html:26
+msgid "Otex Products"
 msgstr ""
 
-#: templates/landing/inc/products-content.html:25
-msgid "Life-changing technology designed to empower people with hearing loss"
-msgstr ""
-
-#: templates/landing/inc/products-content.html:39
-msgid ""
-"All of our hearing solutions are built with our philosophy and have been "
-"designed to support your brain&rsquo;s natural process of making sense of "
-"sound. We offer a complete range of products to support a variety of hearing "
-"needs."
-msgstr ""
-
-#: templates/landing/inc/products-content.html:61
-msgid "Expanded Oticon solutions for everyone"
-msgstr ""
-
-#: templates/landing/inc/products-content.html:62
-msgid ""
-"At Oticon, we never stop pushing the boundaries of what&rsquo;s possible. "
-"Building on our BrainHearing&trade; philosophy, all of our solutions are "
-"designed to provide access to the full sound scene, which allows the brain "
-"to work in a more natural way. We not only revolutionized hearing care with "
-"Oticon More&trade;, but we&rsquo;re also introducing new hearing aid "
-"families and styles designed to help you enjoy a life full of sound. "
-msgstr ""
-
-#: templates/landing/inc/products-content.html:91
-msgid ""
-"With Oticon More, you get superior sound quality, now with more styles and "
-"options. Choose what suits your lifestyle- a miniRITE T or NEW miniBTE T "
-"with disposable batteries or a miniRITE R or NEW miniBTE R rechargeable "
-"style for overnight charging. With more styles, features and charging "
-"options, you can get more out of life."
-msgstr ""
-
-#: templates/landing/inc/products-content.html:110
-msgid "Life-changing technology"
-msgstr ""
-
-#: templates/landing/inc/products-content.html:135
-msgid "Read More"
-msgstr ""
+#: templates/landing/inc/products-content.html:27
+#, fuzzy
+#| msgid "Otex is here"
+msgid "Otex products are here"
+msgstr "Official Distributor of Oticon in UAE"

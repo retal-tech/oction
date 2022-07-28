@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 10:09+0000\n"
-"PO-Revision-Date: 2022-07-18 10:10+0000\n"
+"POT-Creation-Date: 2022-07-24 09:32+0000\n"
+"PO-Revision-Date: 2022-07-24 09:33+0000\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -86,9 +86,9 @@ msgid ""
 msgstr ""
 
 #: templates/landing/inc/about-us-content.html:83
-#: templates/landing/inc/content.html:314
+#: templates/landing/inc/content.html:173
 msgid "Oticon Focus on People Awards 2022"
-msgstr ""
+msgstr " "
 
 #: templates/landing/inc/about-us-content.html:85
 msgid ""
@@ -121,18 +121,24 @@ msgstr ""
 msgid "Get updates and the latest information from Otex"
 msgstr ""
 
-#: templates/landing/inc/content.html:26 templates/landing/inc/content.html:27
+#: templates/landing/inc/content.html:26
 msgid "Otex Hearing Care Solutions"
-msgstr ""
+msgstr " شركة اوتيکس لتجارة المعدات المعدات الطبية ذ.م.م."
+
+#: templates/landing/inc/content.html:27
+msgid "Otex is here"
+msgstr "الموزع الرسمي لشركة اوتیکون في الإمارات العربية المتحدة"
 
 #: templates/landing/inc/content.html:55
 msgid "Oticon&nbsp;More&trade;"
-msgstr ""
+msgstr "يمكننا الاحتفاظ بنفس الصورة الآن"
 
 #: templates/landing/inc/content.html:56
 #: templates/landing/inc/products-content.html:90
 msgid "More potential than ever"
 msgstr ""
+"تمنحك Oticon Zircon تجربة للتواصل  بشكل يومي مع العالم بشكل ممتع و بصورة "
+"سلسة ."
 
 #: templates/landing/inc/content.html:59
 msgid ""
@@ -142,12 +148,15 @@ msgid ""
 "situations so you can go through your day with more confidence "
 "and convenience."
 msgstr ""
+"،حيث يمكنك  مع Oticon Zircon   الحصول على مجموعة واسعة من خيارات الاتصال "
+"المختلفة مما يساعدك على الاستمتاع بتجربة سمع عالية الجودة في مواقف الحياة "
+"اليومية مما يملأ يومك بمزيد من الثقة والراحة"
 
-#: templates/landing/inc/content.html:236
+#: templates/landing/inc/content.html:95
 msgid "New superior technology for everyone"
-msgstr ""
+msgstr "ليس لدينا مراجعات في الوقت الحالي"
 
-#: templates/landing/inc/content.html:239
+#: templates/landing/inc/content.html:98
 msgid ""
 "Introducing Oticon Xceed, the world’s most powerful hearing aid with 146 dB "
 "SPL and 87 dB full-on-gain. * Powered by the Velox S™ platform, and "
@@ -155,24 +164,30 @@ msgid ""
 "speech than ever before for your patients with severe-to-profound hearing "
 "loss."
 msgstr ""
+"تنفرد Oticon Xceed بكونها أقوى أداة مساعدة للسمع في العالم مع with 146 dB SPL and 87 dB full-on-gain . * مدعومًا بمنصة Velox S ™ ، بالاضافة لتقنية Brain Hearing ™ المميزة و الفريدة ز\n"
+" توفر Oticon Xceed انتقائية و وضوحاً  إلى الحديث أكثر من أي وقت مضى للمرضى الذين يعانون من ضعف سمع حاد إلى شديد"
 
-#: templates/landing/inc/content.html:270
+#: templates/landing/inc/content.html:129
 msgid "Help make a difference"
-msgstr ""
+msgstr "هل يمكننا وضع شيء آخر بدلاً من ذلك أم يجب أن يكون مراجعات فقط؟"
 
-#: templates/landing/inc/content.html:272
+#: templates/landing/inc/content.html:131
 msgid ""
 "Opn S takes the open sound experience to the next level, offering more "
 "flexibility for you and more choices for your patients. Powered by the Velox"
 " S™ platform, Opn S allows patients to enjoy speech understanding on par "
 "with normal hearing. *"
 msgstr ""
+"ارتقت Opn s بتجربة سماع الصوت في النطاق المفتوح إلى مستوى أعلى لتضيف  المزيد"
+" من المرونة لك والمزيد من الخيارات للمرضى . مدعومًا بمنصة Velox S ™ ، تتيح "
+"Opn S للمرضى الاستمتاع بسماع الكلام بشكل مفهوم على قدم المساواة مع السمع "
+"الطبيعي. *"
 
-#: templates/landing/inc/content.html:289
+#: templates/landing/inc/content.html:148
 msgid "Oticon is committed to diversity and inclusion."
-msgstr ""
+msgstr "خيارات أوتيكون الشاملة و المتنوعة."
 
-#: templates/landing/inc/content.html:317
+#: templates/landing/inc/content.html:176
 msgid ""
 "\n"
 "                                    Oticon Siya in-the-ear hearing aids capture and amplify the natural, rich details of sounds. They help improve your speech understanding, so you can experience the joy of everyday life.\n"
@@ -185,60 +200,77 @@ msgid ""
 "                                    • A choice of five discreet styles <br>\n"
 "                                "
 msgstr ""
+"\n"
+"تقوم سماعات Oticon Siya - طراز داخل الأذن - بتكبير و التقاط التفاصيل الطبيعية و الدقيقه للأصوات المحيطة كما تساعد على تحسين درجة التقاط تفاصيل كلمات الحوار مما يعزز الشعور بالفهم و الراحة.<br><br>\n"
+"تتميز Oticon Siya بـ :<br>\n"
+"• جودة صوت رائعة<br>\n"
+"• اتصال لاسلكي سهل <br>\n"
+"• خفض فعال للضوضاء<br>\n"
+"• الاختيار بين خمس طرز مختلفه<br>"
 
-#: templates/landing/inc/content.html:367
+#: templates/landing/inc/content.html:226
 msgid ""
 "Oticon makes it easy to connect. Stream phone calls, TV and music directly "
 "to your hearing aids or connect wirelessly to other devices."
 msgstr ""
+"سهولة التواصل مع أوتيكون ، قم ببث المكالمات الهاتفية والتلفزيون والموسيقى "
+"مباشرة إلى معيناتك السمعية أو الاتصال لاسلكيًا بأجهزة أخرى"
 
-#: templates/landing/inc/content.html:370
+#: templates/landing/inc/content.html:229
 msgid "Connectivity options"
-msgstr ""
+msgstr " خيارات الاتصال"
 
-#: templates/landing/inc/content.html:387
+#: templates/landing/inc/content.html:246
 msgid ""
 "Looking for hearing aid support like how to clean your hearing aids or "
 "change your batteries? "
 msgstr ""
+" هل تبحث عن الدعم ، كيفية تنظيف معيناتك السمعية أو تغيير البطاريات الخاصة "
+"بك؟"
 
-#: templates/landing/inc/content.html:390
+#: templates/landing/inc/content.html:249
 msgid "Get support"
-msgstr ""
+msgstr " احصل على الدعم"
 
-#: templates/landing/inc/content.html:407
+#: templates/landing/inc/content.html:266
 msgid "Searching for a hearing care professional near you? "
-msgstr ""
+msgstr " هل تبحث عن أخصائي سمع بالقرب منك؟"
 
-#: templates/landing/inc/content.html:411
+#: templates/landing/inc/content.html:270
 msgid "Find a hearing center"
-msgstr ""
+msgstr " إيجاد مركز السمع"
 
-#: templates/landing/inc/content.html:428
+#: templates/landing/inc/content.html:287
 msgid ""
 "Are you a hearing care professional? See practice resources, technical "
 "product information and more."
 msgstr ""
+" هل أنت متخصص في العناية بالسمع؟ اطلع على مصادر الممارسة ومعلومات المنتج "
+"الفنية والمزيد"
 
-#: templates/landing/inc/content.html:431
+#: templates/landing/inc/content.html:290
 msgid "For professionals"
-msgstr ""
+msgstr " للمتخصصين"
 
-#: templates/landing/inc/header.html:26
+#: templates/landing/inc/footer.html:25
+msgid "Get Connected"
+msgstr "اتصل بنا"
+
+#: templates/landing/inc/header.html:28
 msgid "Home"
 msgstr ""
 
-#: templates/landing/inc/header.html:29
+#: templates/landing/inc/header.html:31
 msgid "About us"
-msgstr ""
+msgstr "من نحن"
 
-#: templates/landing/inc/header.html:33
+#: templates/landing/inc/header.html:35
 msgid "Products"
-msgstr ""
+msgstr "المنتجات"
 
 #: templates/landing/inc/mission.html:6
 msgid "Otex Mission"
-msgstr ""
+msgstr "ضمان  اوتيکس"
 
 #: templates/landing/inc/mission.html:9
 #, python-format
@@ -250,6 +282,8 @@ msgid ""
 "relationships. With OTEX, we guarantee a 100%% customer satisfaction with "
 "assurance of high-quality and authentic product distribution in UAE."
 msgstr ""
+"تضمن اوتکس توزيع المنتجات الأصلية في الإمارات العربية المتحدة ، كونها الموزع الرئيسي والوحيد للعلامة التجارية اوتیکون . يؤكد فريق أوتيكس على بذل قصارى الجهد  لتوفير افضل مستوى للخدمة و تلبية المتطلبات الفردية لعملائنا.\n"
+"."
 
 #: templates/landing/inc/products-content.html:24
 msgid "Hearing aids and accessories"
@@ -257,7 +291,7 @@ msgstr ""
 
 #: templates/landing/inc/products-content.html:25
 msgid "Life-changing technology designed to empower people with hearing loss"
-msgstr ""
+msgstr " غير حياتك التكنولوجيا"
 
 #: templates/landing/inc/products-content.html:39
 msgid ""

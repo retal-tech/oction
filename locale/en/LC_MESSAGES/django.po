@@ -8,15 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 10:09+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2022-07-24 09:32+0000\n"
+"PO-Revision-Date: 2022-07-23 10:49+0000\n"
+"Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.9.8\n"
 
 #: landing/forms.py:13
 msgid "Name"
@@ -85,7 +86,7 @@ msgid ""
 msgstr ""
 
 #: templates/landing/inc/about-us-content.html:83
-#: templates/landing/inc/content.html:314
+#: templates/landing/inc/content.html:173
 msgid "Oticon Focus on People Awards 2022"
 msgstr ""
 
@@ -120,9 +121,13 @@ msgstr ""
 msgid "Get updates and the latest information from Otex"
 msgstr ""
 
-#: templates/landing/inc/content.html:26 templates/landing/inc/content.html:27
+#: templates/landing/inc/content.html:26
 msgid "Otex Hearing Care Solutions"
-msgstr ""
+msgstr "OtexMedical Equipments Trading L.L.C."
+
+#: templates/landing/inc/content.html:27
+msgid "Otex is here"
+msgstr "Official Distributor of Oticon in UAE"
 
 #: templates/landing/inc/content.html:55
 msgid "Oticon&nbsp;More&trade;"
@@ -142,11 +147,11 @@ msgid ""
 "and convenience."
 msgstr ""
 
-#: templates/landing/inc/content.html:236
+#: templates/landing/inc/content.html:95
 msgid "New superior technology for everyone"
 msgstr ""
 
-#: templates/landing/inc/content.html:239
+#: templates/landing/inc/content.html:98
 msgid ""
 "Introducing Oticon Xceed, the world’s most powerful hearing aid with 146 dB "
 "SPL and 87 dB full-on-gain. * Powered by the Velox S™ platform, and "
@@ -155,11 +160,11 @@ msgid ""
 "loss."
 msgstr ""
 
-#: templates/landing/inc/content.html:270
+#: templates/landing/inc/content.html:129
 msgid "Help make a difference"
 msgstr ""
 
-#: templates/landing/inc/content.html:272
+#: templates/landing/inc/content.html:131
 msgid ""
 "Opn S takes the open sound experience to the next level, offering more "
 "flexibility for you and more choices for your patients. Powered by the Velox "
@@ -167,11 +172,11 @@ msgid ""
 "normal hearing. *"
 msgstr ""
 
-#: templates/landing/inc/content.html:289
+#: templates/landing/inc/content.html:148
 msgid "Oticon is committed to diversity and inclusion."
 msgstr ""
 
-#: templates/landing/inc/content.html:317
+#: templates/landing/inc/content.html:176
 msgid ""
 "\n"
 "                                    Oticon Siya in-the-ear hearing aids "
@@ -187,53 +192,58 @@ msgid ""
 "                                "
 msgstr ""
 
-#: templates/landing/inc/content.html:367
+#: templates/landing/inc/content.html:226
 msgid ""
 "Oticon makes it easy to connect. Stream phone calls, TV and music directly "
 "to your hearing aids or connect wirelessly to other devices."
 msgstr ""
 
-#: templates/landing/inc/content.html:370
+#: templates/landing/inc/content.html:229
 msgid "Connectivity options"
 msgstr ""
 
-#: templates/landing/inc/content.html:387
+#: templates/landing/inc/content.html:246
 msgid ""
 "Looking for hearing aid support like how to clean your hearing aids or "
 "change your batteries? "
 msgstr ""
 
-#: templates/landing/inc/content.html:390
+#: templates/landing/inc/content.html:249
 msgid "Get support"
 msgstr ""
 
-#: templates/landing/inc/content.html:407
+#: templates/landing/inc/content.html:266
 msgid "Searching for a hearing care professional near you? "
 msgstr ""
 
-#: templates/landing/inc/content.html:411
+#: templates/landing/inc/content.html:270
 msgid "Find a hearing center"
 msgstr ""
 
-#: templates/landing/inc/content.html:428
+#: templates/landing/inc/content.html:287
 msgid ""
 "Are you a hearing care professional? See practice resources, technical "
 "product information and more."
 msgstr ""
 
-#: templates/landing/inc/content.html:431
+#: templates/landing/inc/content.html:290
 msgid "For professionals"
 msgstr ""
 
-#: templates/landing/inc/header.html:26
-msgid "Home"
+#: templates/landing/inc/footer.html:25
+msgid "Get Connected"
 msgstr ""
 
-#: templates/landing/inc/header.html:29
+#: templates/landing/inc/header.html:28
+#, fuzzy
+msgid "Home"
+msgstr "homeeee"
+
+#: templates/landing/inc/header.html:31
 msgid "About us"
 msgstr ""
 
-#: templates/landing/inc/header.html:33
+#: templates/landing/inc/header.html:35
 msgid "Products"
 msgstr ""
 

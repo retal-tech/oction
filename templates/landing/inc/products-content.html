@@ -1,105 +1,77 @@
-{% load static %}
 {% load i18n %}
+{% load static %}
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <div id="content" class="content main clearfix">
     <div class="row">
         <div class="grid-12">
+            {% include 'landing/inc/mission.html' %}
 
-            <div class="component intro-banner w60" data-tracking-name="Oticon hearing solutions ">
+
+            <div class="component intro-banner w40 white-txt"  data-tracking-name="about Oticon" >
                 <div class="component-content">
 
 
-                    <div class="intro-banner-image" data-mobile-image="{% static 'img/banner-mobile.jpg' %}"
-                         data-mobile-image-height="500" data-mobile-image-width="800"
-                         data-mobile-image-alt-text="banner-oticon-more-hand-image-2020-mobile-800x500-v1">
-                        <img src="{% static 'img/banner-products.jpg' %}" alt="banner-oticon-more-hand-image-2020-1920x500-v3"
-                             width="1920" height="500"/>
-                    </div>
+
+                    <div class="intro-banner-image"><img src="{% static 'img/products.jpg' %}" alt="banner-about-us-life-changing-tech-1920x500-v2" width="1920" height="500" /></div>
 
 
                     <div class="intro-banner-content">
                         <div class="outer-pos-wrapper">
                             <div class="inner-pos-wrapper">
-                                <div class="intro-banner-text"><br/>
-                                    <br/>
-                                    <br/>
-                                    <h1>{% trans 'Otex Products' %}</h1>
+                                <div class="intro-banner-text"><h1>{% trans 'Otex Products' %}</h1>
+                                    <p class="bigger">{% trans 'Otex products are here' %}</p>
+                                </div>
                                 <div class="intro-banner-link"></div>
+                            </div>
+
+                            <div class="sticky-downlink">
+
+                                <a href="#down" class="disc-down"></a>
+
                             </div>
 
                         </div>
 
 
-                    </div>
-                </div>
-            </div>
-
-            <div class="component text-image-spot inoborder iposmiddle tposmiddle tforceheight"
-                 data-tracking-name="oticon more">
-                <div class="component-content">
-
-
-                    <div class="text-image-spot-image-container">
-
-                        <div class="text-image-spot-image">
-                            <img src="{% static 'img/site-products.jpg' %}" alt="award-badges-1200x788-v3" width="1200"
-                                 height="788"/>
-
-                        </div>
-                    </div>
-
-                    <div class="text-image-spot-text-container">
-                        <div class="text-image-spot-text"><br/>
-                            <br/>
-                            <h2 style="text-align: left;">{% trans 'Otex producs' %}</h2>
-                            <br/>
-                            <p>
-                                {% trans 'otex products text' %}
-                                <br/>
-                            </p>
-                            <br/>
-                            <br/></div>
-
 
                     </div>
-
-
-                    <div class="clearfix"></div>
-
-
                 </div>
             </div>
 
             <div class="component download-center top-margin hide-title"   >
 
-            <div class="component-content">
+                <div class="component-content">
 
 
 
-            <div class="download-center-main">
+                    <div class="download-center-main">
 
-                <div class="download-center-main">
-                    <div class="download-center-content left">
+                        <div class="download-center-main">
+                            <div class="download-center-content left">
 
-                        {% for project in projects %}
-                            <h4>{{project.title}}</h4>
+                                {% for project in projects %}
+                                    <h4>{{project.title}}</h4>
 
-                            <div class="download-pdf">
-                            <a href="{{project.pdf.url}}">
-                            {{project.description}}
-                            </a>
+                                    <div class="download-pdf">
+                                        <a href="{{project.pdf.url}}">
+                                            {{project.description}}
+                                        </a>
+                                    </div>
+                                {%endfor%}
+
                             </div>
-                        {%endfor%}
-                                    
+                        </div>
                     </div>
+
                 </div>
+
+                <br><br><br>
             </div>
-
-            </div>
-
-            <br><br><br>
-        </div>
-
         </div>
     </div>
-</div>
 </div>

@@ -1,0 +1,333 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-24 09:32+0000\n"
+"PO-Revision-Date: 2022-07-24 09:33+0000\n"
+"Last-Translator:   <>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Translated-Using: django-rosetta 0.9.8\n"
+
+#: landing/forms.py:13
+msgid "Name"
+msgstr ""
+
+#: landing/forms.py:14
+msgid "Email"
+msgstr ""
+
+#: landing/forms.py:15
+msgid "Subject"
+msgstr ""
+
+#: landing/forms.py:16
+msgid "Message"
+msgstr ""
+
+#: landing/forms.py:19
+msgid "Captcha"
+msgstr ""
+
+#: landing/views.py:40
+msgid "Your message has been sent!"
+msgstr ""
+
+#: oction/settings.py:199
+msgid "English"
+msgstr ""
+
+#: oction/settings.py:200
+msgid "Arabic"
+msgstr ""
+
+#: oction/urls.py:27
+msgid "admin/"
+msgstr ""
+
+#: templates/landing/inc/about-us-content.html:26
+msgid "About Otex"
+msgstr ""
+
+#: templates/landing/inc/about-us-content.html:27
+msgid "Our vision is a world where hearing loss is no limitation. "
+msgstr ""
+
+#: templates/landing/inc/about-us-content.html:55
+msgid "Our Commitment to Diversity &amp; Inclusion"
+msgstr ""
+
+#: templates/landing/inc/about-us-content.html:56
+msgid ""
+"Oticon is committed to continuing to foster a workplace environment that is "
+"diverse and inclusive. Oticon President Gary Rosenblum recently "
+msgstr ""
+
+#: templates/landing/inc/about-us-content.html:57
+msgid ""
+" on how Oticon and its employees are joining together to take action and "
+"influence change."
+msgstr ""
+
+#: templates/landing/inc/about-us-content.html:60
+msgid ""
+" Oticon recently made a donation to the AAAF Empowering Students Scholarship"
+" Fund to support Black students on their journey to becoming audiologists. "
+msgstr ""
+
+#: templates/landing/inc/about-us-content.html:83
+#: templates/landing/inc/content.html:173
+msgid "Oticon Focus on People Awards 2022"
+msgstr " "
+
+#: templates/landing/inc/about-us-content.html:85
+msgid ""
+"Nominate an outstanding person with hearing loss for the 2022 "
+"awards&nbsp;program. "
+msgstr ""
+
+#: templates/landing/inc/about-us-content.html:121
+msgid "Otex: A world leader in hearing care since 1904"
+msgstr ""
+
+#: templates/landing/inc/about-us-content.html:146
+msgid ""
+"The industry&rsquo;s most advanced center for hearing instrument technology"
+msgstr ""
+
+#: templates/landing/inc/about-us-content.html:172
+msgid "Otex Hearing Foundation"
+msgstr ""
+
+#: templates/landing/inc/about-us-content.html:173
+msgid ""
+"The non-profit Oticon Hearing Foundation aims to foster a &lsquo;community "
+"of caring&rsquo; among hearing care professionals that empowers them to "
+"bring sustainable&nbsp;hearing care to people in need and communities around"
+" the world."
+msgstr ""
+
+#: templates/landing/inc/about-us-content.html:197
+msgid "Get updates and the latest information from Otex"
+msgstr ""
+
+#: templates/landing/inc/content.html:26
+msgid "Otex Hearing Care Solutions"
+msgstr " شركة اوتيکس لتجارة المعدات المعدات الطبية ذ.م.م."
+
+#: templates/landing/inc/content.html:27
+msgid "Otex is here"
+msgstr "الموزع الرسمي لشركة اوتیکون في الإمارات العربية المتحدة"
+
+#: templates/landing/inc/content.html:55
+msgid "Oticon&nbsp;More&trade;"
+msgstr "يمكننا الاحتفاظ بنفس الصورة الآن"
+
+#: templates/landing/inc/content.html:56
+#: templates/landing/inc/products-content.html:90
+msgid "More potential than ever"
+msgstr ""
+"تمنحك Oticon Zircon تجربة للتواصل  بشكل يومي مع العالم بشكل ممتع و بصورة "
+"سلسة ."
+
+#: templates/landing/inc/content.html:59
+msgid ""
+"Oticon Zircon creates a seamless experience to help you enjoy today’s "
+"connected world. With Oticon Zircon, you also get a wide range of "
+"connectivity options for a high-quality listening experience in everyday "
+"situations so you can go through your day with more confidence "
+"and convenience."
+msgstr ""
+"،حيث يمكنك  مع Oticon Zircon   الحصول على مجموعة واسعة من خيارات الاتصال "
+"المختلفة مما يساعدك على الاستمتاع بتجربة سمع عالية الجودة في مواقف الحياة "
+"اليومية مما يملأ يومك بمزيد من الثقة والراحة"
+
+#: templates/landing/inc/content.html:95
+msgid "New superior technology for everyone"
+msgstr "ليس لدينا مراجعات في الوقت الحالي"
+
+#: templates/landing/inc/content.html:98
+msgid ""
+"Introducing Oticon Xceed, the world’s most powerful hearing aid with 146 dB "
+"SPL and 87 dB full-on-gain. * Powered by the Velox S™ platform, and "
+"featuring BrainHearing™ technology, Oticon Xceed provides more access to "
+"speech than ever before for your patients with severe-to-profound hearing "
+"loss."
+msgstr ""
+"تنفرد Oticon Xceed بكونها أقوى أداة مساعدة للسمع في العالم مع with 146 dB SPL and 87 dB full-on-gain . * مدعومًا بمنصة Velox S ™ ، بالاضافة لتقنية Brain Hearing ™ المميزة و الفريدة ز\n"
+" توفر Oticon Xceed انتقائية و وضوحاً  إلى الحديث أكثر من أي وقت مضى للمرضى الذين يعانون من ضعف سمع حاد إلى شديد"
+
+#: templates/landing/inc/content.html:129
+msgid "Help make a difference"
+msgstr "هل يمكننا وضع شيء آخر بدلاً من ذلك أم يجب أن يكون مراجعات فقط؟"
+
+#: templates/landing/inc/content.html:131
+msgid ""
+"Opn S takes the open sound experience to the next level, offering more "
+"flexibility for you and more choices for your patients. Powered by the Velox"
+" S™ platform, Opn S allows patients to enjoy speech understanding on par "
+"with normal hearing. *"
+msgstr ""
+"ارتقت Opn s بتجربة سماع الصوت في النطاق المفتوح إلى مستوى أعلى لتضيف  المزيد"
+" من المرونة لك والمزيد من الخيارات للمرضى . مدعومًا بمنصة Velox S ™ ، تتيح "
+"Opn S للمرضى الاستمتاع بسماع الكلام بشكل مفهوم على قدم المساواة مع السمع "
+"الطبيعي. *"
+
+#: templates/landing/inc/content.html:148
+msgid "Oticon is committed to diversity and inclusion."
+msgstr "خيارات أوتيكون الشاملة و المتنوعة."
+
+#: templates/landing/inc/content.html:176
+msgid ""
+"\n"
+"                                    Oticon Siya in-the-ear hearing aids capture and amplify the natural, rich details of sounds. They help improve your speech understanding, so you can experience the joy of everyday life.\n"
+"                                    <br>\n"
+"                                    <br>\n"
+"                                    Oticon Siya highlights: <br>\n"
+"                                    • Superb sound quality <br>\n"
+"                                    • Easy wireless connectivity* <br>\n"
+"                                    • Effective noise reduction <br>\n"
+"                                    • A choice of five discreet styles <br>\n"
+"                                "
+msgstr ""
+"\n"
+"تقوم سماعات Oticon Siya - طراز داخل الأذن - بتكبير و التقاط التفاصيل الطبيعية و الدقيقه للأصوات المحيطة كما تساعد على تحسين درجة التقاط تفاصيل كلمات الحوار مما يعزز الشعور بالفهم و الراحة.<br><br>\n"
+"تتميز Oticon Siya بـ :<br>\n"
+"• جودة صوت رائعة<br>\n"
+"• اتصال لاسلكي سهل <br>\n"
+"• خفض فعال للضوضاء<br>\n"
+"• الاختيار بين خمس طرز مختلفه<br>"
+
+#: templates/landing/inc/content.html:226
+msgid ""
+"Oticon makes it easy to connect. Stream phone calls, TV and music directly "
+"to your hearing aids or connect wirelessly to other devices."
+msgstr ""
+"سهولة التواصل مع أوتيكون ، قم ببث المكالمات الهاتفية والتلفزيون والموسيقى "
+"مباشرة إلى معيناتك السمعية أو الاتصال لاسلكيًا بأجهزة أخرى"
+
+#: templates/landing/inc/content.html:229
+msgid "Connectivity options"
+msgstr " خيارات الاتصال"
+
+#: templates/landing/inc/content.html:246
+msgid ""
+"Looking for hearing aid support like how to clean your hearing aids or "
+"change your batteries? "
+msgstr ""
+" هل تبحث عن الدعم ، كيفية تنظيف معيناتك السمعية أو تغيير البطاريات الخاصة "
+"بك؟"
+
+#: templates/landing/inc/content.html:249
+msgid "Get support"
+msgstr " احصل على الدعم"
+
+#: templates/landing/inc/content.html:266
+msgid "Searching for a hearing care professional near you? "
+msgstr " هل تبحث عن أخصائي سمع بالقرب منك؟"
+
+#: templates/landing/inc/content.html:270
+msgid "Find a hearing center"
+msgstr " إيجاد مركز السمع"
+
+#: templates/landing/inc/content.html:287
+msgid ""
+"Are you a hearing care professional? See practice resources, technical "
+"product information and more."
+msgstr ""
+" هل أنت متخصص في العناية بالسمع؟ اطلع على مصادر الممارسة ومعلومات المنتج "
+"الفنية والمزيد"
+
+#: templates/landing/inc/content.html:290
+msgid "For professionals"
+msgstr " للمتخصصين"
+
+#: templates/landing/inc/footer.html:25
+msgid "Get Connected"
+msgstr "اتصل بنا"
+
+#: templates/landing/inc/header.html:28
+msgid "Home"
+msgstr ""
+
+#: templates/landing/inc/header.html:31
+msgid "About us"
+msgstr "من نحن"
+
+#: templates/landing/inc/header.html:35
+msgid "Products"
+msgstr "المنتجات"
+
+#: templates/landing/inc/mission.html:6
+msgid "Otex Mission"
+msgstr "ضمان  اوتيکس"
+
+#: templates/landing/inc/mission.html:9
+#, python-format
+msgid ""
+"OTEX guarantees authentic product distribution in United Arab Emirates, "
+"being the main distributor and brand carrier of Oticon. We put a lot of "
+"efforts in delivering the best to meet the individual requirement of our "
+"customers. Our first priority is customer satisfaction and long-lasting "
+"relationships. With OTEX, we guarantee a 100%% customer satisfaction with "
+"assurance of high-quality and authentic product distribution in UAE."
+msgstr ""
+"تضمن اوتکس توزيع المنتجات الأصلية في الإمارات العربية المتحدة ، كونها الموزع الرئيسي والوحيد للعلامة التجارية اوتیکون . يؤكد فريق أوتيكس على بذل قصارى الجهد  لتوفير افضل مستوى للخدمة و تلبية المتطلبات الفردية لعملائنا.\n"
+"."
+
+#: templates/landing/inc/products-content.html:24
+msgid "Hearing aids and accessories"
+msgstr ""
+
+#: templates/landing/inc/products-content.html:25
+msgid "Life-changing technology designed to empower people with hearing loss"
+msgstr " غير حياتك التكنولوجيا"
+
+#: templates/landing/inc/products-content.html:39
+msgid ""
+"All of our hearing solutions are built with our philosophy and have been "
+"designed to support your brain&rsquo;s natural process of making sense of "
+"sound. We offer a complete range of products to support a variety of hearing"
+" needs."
+msgstr ""
+
+#: templates/landing/inc/products-content.html:61
+msgid "Expanded Oticon solutions for everyone"
+msgstr ""
+
+#: templates/landing/inc/products-content.html:62
+msgid ""
+"At Oticon, we never stop pushing the boundaries of what&rsquo;s possible. "
+"Building on our BrainHearing&trade; philosophy, all of our solutions are "
+"designed to provide access to the full sound scene, which allows the brain "
+"to work in a more natural way. We not only revolutionized hearing care with "
+"Oticon More&trade;, but we&rsquo;re also introducing new hearing aid "
+"families and styles designed to help you enjoy a life full of sound. "
+msgstr ""
+
+#: templates/landing/inc/products-content.html:91
+msgid ""
+"With Oticon More, you get superior sound quality, now with more styles and "
+"options. Choose what suits your lifestyle- a miniRITE T or NEW miniBTE T "
+"with disposable batteries or a miniRITE R or NEW miniBTE R rechargeable "
+"style for overnight charging. With more styles, features and charging "
+"options, you can get more out of life."
+msgstr ""
+
+#: templates/landing/inc/products-content.html:110
+msgid "Life-changing technology"
+msgstr ""
+
+#: templates/landing/inc/products-content.html:135
+msgid "Read More"
+msgstr ""

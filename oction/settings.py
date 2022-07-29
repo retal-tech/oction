@@ -179,19 +179,18 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_URL = 'login'
 LOGOUT_REDIRECT_URL = 'home'
 
-if not DEBUG:
-    CACHES = {
-        'default': {
-            'BACKEND': 'django.core.cache.backends.redis.RedisCache',
-            'LOCATION': f'redis://redis_cache:{os.environ.get("REDIS_PORT")}',
-        }
-    }
+# if not DEBUG:
+#    CACHES = {
+#        'default': {
+#            'BACKEND': 'django.core.cache.backends.redis.RedisCache',
+#            'LOCATION': f'redis://redis_cache:{os.environ.get("REDIS_PORT")}',
+#        }
+#    }
 
 # Recaptcha settings
 RECAPTCHA_PUBLIC_KEY = environ.get("RECAPTCHA_PUBLIC_KEY")
 RECAPTCHA_PRIVATE_KEY = environ.get("RECAPTCHA_PRIVATE_KEY")
 RECAPTCHA_USE_SSL = True
-
 
 # Internationalization
 

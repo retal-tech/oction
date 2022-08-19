@@ -79,7 +79,7 @@ class ProductsView(FormView):
         Make an dictionary of data
         """
         context = super().get_context_data()
-        projects = Projects.objects.order_by('priority').all()
+        projects = Projects.objects.order_by('-priority').all()
         context['projects'] = projects
         return context
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-19 10:33+0000\n"
+"POT-Creation-Date: 2022-08-19 10:43+0000\n"
 "PO-Revision-Date: 2022-07-24 09:33+0000\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -124,10 +124,8 @@ msgid "Landline: +971 43547887<br>Whatsapp: +971 50 829 8757<br>"
 msgstr ""
 
 #: templates/landing/inc/about-us-content.html:109
-#, fuzzy
-#| msgid "Connectivity options"
-msgid "Connect to otex"
-msgstr " خيارات الاتصال"
+msgid "otex social media"
+msgstr ""
 
 #: templates/landing/inc/content.html:26
 msgid "Otex Medical Equipments Trading L.L.C."
@@ -313,6 +311,11 @@ msgstr "المنتجات"
 #| msgid "Otex is here"
 msgid "Otex products are here"
 msgstr "الموزع الرسمي لشركة اوتیکون في الإمارات العربية المتحدة"
+
+#, fuzzy
+#~| msgid "Connectivity options"
+#~ msgid "Connect to otex"
+#~ msgstr " خيارات الاتصال"
 
 #~ msgid "Otex Hearing Care Solutions"
 #~ msgstr " شركة اوتيکس لتجارة المعدات المعدات الطبية ذ.م.م."

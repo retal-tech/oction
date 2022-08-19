@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-28 20:47+0000\n"
+"POT-Creation-Date: 2022-08-19 10:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,11 +41,11 @@ msgstr ""
 msgid "Your message has been sent!"
 msgstr ""
 
-#: oction/settings.py:199
+#: oction/settings.py:198
 msgid "English"
 msgstr ""
 
-#: oction/settings.py:200
+#: oction/settings.py:199
 msgid "Arabic"
 msgstr ""
 
@@ -62,61 +62,66 @@ msgid "Our vision is a world where hearing loss is no limitation. "
 msgstr ""
 
 #: templates/landing/inc/about-us-content.html:55
-msgid "Our Commitment to Diversity &amp; Inclusion"
+#: templates/landing/inc/header.html:32
+msgid "About us"
 msgstr ""
 
 #: templates/landing/inc/about-us-content.html:56
+#, python-format
 msgid ""
-"Oticon is committed to continuing to foster a workplace environment that is "
-"diverse and inclusive. Oticon President Gary Rosenblum recently "
+"Otex specializes in high quality products and services. It provides Oticon "
+"products from Denmark, and offers the best possible solution for hearing "
+"impaired. Our priority is customer satisfaction and long-lasting "
+"relationships. We put a lot of efforts in delivering the best to meet the "
+"individual requirement of our customers.<br>Otex was established in 2006, "
+"with the aim of contributing the best solution to hearing impaired segment "
+"of the healthcare industry of United Arab Emirates. <br>The pillar of this "
+"company, our CEO and Managing Director is Mr. Bijan Bafkar, a businessman "
+"who started his career in a different kind of business but was encouraged to "
+"put-up the hearing aid industry because of his experience of seeing the "
+"hearing-impaired people, not given the chance to have the exact and proper "
+"treatment necessary to arrest their condition. He started his hearing aid "
+"industry in Tehran, Iran, now running 25 years and counting, and is covering "
+"85%% share of the total Iran healthcare industry. He put a vision to spread "
+"the comfortability and satisfaction to the hearing-impaired segment of the "
+"healthcare industry and so he established Otex Medical Equipment Trading in "
+"Dubai.<br>Having the experience in the field of hearing aids, he chose the "
+"best company Oticon of Denmark, to be his all in fulfilling his vision. Over "
+"the years, Otex dealt with Oticon brand and has seen a remarkable response "
+"not only from end-users but from doctors and audiologists as well.Otex "
+"Medical Equipments Trading being the local distributor of Oticon and Oticon "
+"Medical hearing devices in United Arab Emirates since 2006 specializes in "
+"high quality products and services. <br><br>"
 msgstr ""
 
-#: templates/landing/inc/about-us-content.html:57
-msgid ""
-" on how Oticon and its employees are joining together to take action and "
-"influence change."
+#: templates/landing/inc/about-us-content.html:78
+msgid "Our Adress"
 msgstr ""
 
-#: templates/landing/inc/about-us-content.html:60
-msgid ""
-" Oticon recently made a donation to the AAAF Empowering Students Scholarship "
-"Fund to support Black students on their journey to becoming audiologists. "
+#: templates/landing/inc/about-us-content.html:79
+msgid "B3704, Latifa Tower Sheikh Zayed Road Dubai"
 msgstr ""
 
-#: templates/landing/inc/about-us-content.html:83
-#: templates/landing/inc/content.html:173
-msgid "Oticon Focus on People Awards 2022"
+#: templates/landing/inc/about-us-content.html:81
+msgid "Our Timing"
+msgstr ""
+
+#: templates/landing/inc/about-us-content.html:82
+msgid ""
+"Sunday to Thursday 9AM to 5 PM<br>Friday 9AM to 2PM<br>Saturday is a day "
+"off<br>"
+msgstr ""
+
+#: templates/landing/inc/about-us-content.html:84
+msgid "Our contacts"
 msgstr ""
 
 #: templates/landing/inc/about-us-content.html:85
-msgid ""
-"Nominate an outstanding person with hearing loss for the 2022 awards&nbsp;"
-"program. "
+msgid "Landline: +971 43547887<br>Whatsapp: +971 50 829 8757<br>"
 msgstr ""
 
-#: templates/landing/inc/about-us-content.html:121
-msgid "Otex: A world leader in hearing care since 1904"
-msgstr ""
-
-#: templates/landing/inc/about-us-content.html:146
-msgid ""
-"The industry&rsquo;s most advanced center for hearing instrument technology"
-msgstr ""
-
-#: templates/landing/inc/about-us-content.html:172
-msgid "Otex Hearing Foundation"
-msgstr ""
-
-#: templates/landing/inc/about-us-content.html:173
-msgid ""
-"The non-profit Oticon Hearing Foundation aims to foster a &lsquo;community "
-"of caring&rsquo; among hearing care professionals that empowers them to "
-"bring sustainable&nbsp;hearing care to people in need and communities around "
-"the world."
-msgstr ""
-
-#: templates/landing/inc/about-us-content.html:197
-msgid "Get updates and the latest information from Otex"
+#: templates/landing/inc/about-us-content.html:109
+msgid "Connect to otex"
 msgstr ""
 
 #: templates/landing/inc/content.html:26
@@ -171,6 +176,10 @@ msgstr ""
 
 #: templates/landing/inc/content.html:148
 msgid "Oticon is committed to diversity and inclusion."
+msgstr ""
+
+#: templates/landing/inc/content.html:173
+msgid "Oticon Focus on People Awards 2022"
 msgstr ""
 
 #: templates/landing/inc/content.html:176
@@ -233,10 +242,6 @@ msgstr ""
 
 #: templates/landing/inc/header.html:29
 msgid "Home"
-msgstr ""
-
-#: templates/landing/inc/header.html:32
-msgid "About us"
 msgstr ""
 
 #: templates/landing/inc/header.html:36

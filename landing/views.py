@@ -80,7 +80,7 @@ class ProductsView(FormView):
         """
         context = super().get_context_data()
         # Send portfolio partition by 4
-        projects = Projects.objects.all()
+        projects = Projects.objects.all().reverse()
         context['projects'] = projects
         return context
 

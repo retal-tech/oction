@@ -12,6 +12,7 @@ class Projects(TranslatableModel):
         description=models.TextField(),
     )
     pdf =  models.FileField(upload_to='products/', default=None)
+    priority = models.IntegerField(default=0)
 
 
     def __str__(self):

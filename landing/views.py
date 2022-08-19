@@ -79,8 +79,7 @@ class ProductsView(FormView):
         Make an dictionary of data
         """
         context = super().get_context_data()
-        # Send portfolio partition by 4
-        projects = Projects.objects.all().reverse()
+        projects = Projects.objects.order_by('priority').all()
         context['projects'] = projects
         return context
 

@@ -9,15 +9,14 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-19 10:33+0000\n"
-"PO-Revision-Date: 2022-07-24 09:33+0000\n"
+"PO-Revision-Date: 2022-08-19 10:41+0000\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
-"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "X-Translated-Using: django-rosetta 0.9.8\n"
 
 #: landing/forms.py:13
@@ -58,7 +57,7 @@ msgstr ""
 
 #: templates/landing/inc/about-us-content.html:26
 msgid "About Otex"
-msgstr ""
+msgstr "اوتيكس"
 
 #: templates/landing/inc/about-us-content.html:27
 msgid "Our vision is a world where hearing loss is no limitation. "
@@ -80,68 +79,85 @@ msgid ""
 "with the aim of contributing the best solution to hearing impaired segment "
 "of the healthcare industry of United Arab Emirates. <br>The pillar of this "
 "company, our CEO and Managing Director is Mr. Bijan Bafkar, a businessman "
-"who started his career in a different kind of business but was encouraged to "
-"put-up the hearing aid industry because of his experience of seeing the "
+"who started his career in a different kind of business but was encouraged to"
+" put-up the hearing aid industry because of his experience of seeing the "
 "hearing-impaired people, not given the chance to have the exact and proper "
 "treatment necessary to arrest their condition. He started his hearing aid "
-"industry in Tehran, Iran, now running 25 years and counting, and is covering "
-"85%% share of the total Iran healthcare industry. He put a vision to spread "
-"the comfortability and satisfaction to the hearing-impaired segment of the "
+"industry in Tehran, Iran, now running 25 years and counting, and is covering"
+" 85%% share of the total Iran healthcare industry. He put a vision to spread"
+" the comfortability and satisfaction to the hearing-impaired segment of the "
 "healthcare industry and so he established Otex Medical Equipment Trading in "
 "Dubai.<br>Having the experience in the field of hearing aids, he chose the "
-"best company Oticon of Denmark, to be his all in fulfilling his vision. Over "
-"the years, Otex dealt with Oticon brand and has seen a remarkable response "
+"best company Oticon of Denmark, to be his all in fulfilling his vision. Over"
+" the years, Otex dealt with Oticon brand and has seen a remarkable response "
 "not only from end-users but from doctors and audiologists as well.Otex "
 "Medical Equipments Trading being the local distributor of Oticon and Oticon "
 "Medical hearing devices in United Arab Emirates since 2006 specializes in "
 "high quality products and services. <br><br>"
 msgstr ""
+" اوتيكس للمعدات الطبية متخصصة في المنتجات والخدمات عالية الجودة حيت توفر "
+"منتجات اوتيكون من الدنمارك ، وتقدم أفضل حل ممكن للاشخاص اصحاب ضعف السمع. "
+"أولويتنا هي رضا العملاء والعلاقات طويلة الأمد و دلك ببذل الكثير من الجهد في "
+"تقديم الأفضل لتلبية المتطلبات الفردية لعملائنا.<br>تأسست اوتيكس في عام 2006 "
+"، بهدف المساهمة في أفضل حل لاصحاب ضعاف السمع في صناعة الرعاية الصحية في "
+"الإمارات العربية المتحدة.<br>اساس هذه الشركة هو الرئيس التنفيذي والعضو "
+"المنتدب السيد بيجان بافكار ، وهو رجل أعمال بدأ حياته المهنية في انواع مختلفة"
+" من الأعمال وفكرة تطويره لصناعة المعدات السمعية كانت بسبب تجربته مع اصحاب "
+"ضعاف السمع ، الذين لم يتم منحهم الفرصة للحصول على العلاج الدقيق والمناسب "
+"اللازم لتحسين حالتهم. بدأ بصناعة المعدات السمعية في طهران ، إيران ، حيث يعمل"
+" الآن لمدة اكتر من 25 عامًا وما زال مستمرًا ، ويغطي 85 ٪ من إجمالي الرعاية "
+"الصحية في إيران. لقد وضع رؤية جديدة لنشر الرعاية الكافية والرضا لقطاع ضعاف "
+"السمع مما حته على تأسيس شركة  اوتيكس للمعدات الطبية في دبي.<br>من خلال خبرته"
+" في المجال، اختار أفضل شركة اوتيكون في الدنمارك ، ليكون الوكيل الوحيد بدولة "
+"الامارات المتحدة .<br>على مر السنين ، تعاملت شركة اوتيكس مع العلامة اوتيكون"
+"  وشهدت استجابة رائعة ليس فقط من مستخدمي السماعات ولكن من الأطباء وأخصائيي "
+"السمع أيضًا لجودتها العالية."
 
 #: templates/landing/inc/about-us-content.html:78
 msgid "Our Adress"
-msgstr ""
+msgstr "العنوان"
 
 #: templates/landing/inc/about-us-content.html:79
 msgid "B3704, Latifa Tower Sheikh Zayed Road Dubai"
-msgstr ""
+msgstr "ب 3704 برج لطيفة شارع الشيخ الزايد دبي"
 
 #: templates/landing/inc/about-us-content.html:81
 msgid "Our Timing"
-msgstr ""
+msgstr "اوقات العمل"
 
 #: templates/landing/inc/about-us-content.html:82
 msgid ""
 "Sunday to Thursday 9AM to 5 PM<br>Friday 9AM to 2PM<br>Saturday is a day "
 "off<br>"
 msgstr ""
+"من الاحد الى الخميس : من الساعة 9 الى الساعة 5الجمعة : من الساعة 9 الى "
+"الساعة 2<br>السبت : عطلة<br>"
 
 #: templates/landing/inc/about-us-content.html:84
 msgid "Our contacts"
-msgstr ""
+msgstr "للتواصل"
 
 #: templates/landing/inc/about-us-content.html:85
 msgid "Landline: +971 43547887<br>Whatsapp: +971 50 829 8757<br>"
-msgstr ""
+msgstr "الارضي: +971 43547887<br>واتساب: +971 50 829 8757"
 
 #: templates/landing/inc/about-us-content.html:109
-#, fuzzy
 #| msgid "Connectivity options"
 msgid "Connect to otex"
 msgstr " خيارات الاتصال"
 
 #: templates/landing/inc/content.html:26
 msgid "Otex Medical Equipments Trading L.L.C."
-msgstr ""
+msgstr "شركة ا وتي کس لتجارة المعدات المعدات الطبية ذ.م.م. "
 
 #: templates/landing/inc/content.html:27
 msgid "Official Distributor of Oticon in UAE"
-msgstr ""
+msgstr "الموزع الرسمي لشركة اوتیکون في اإلمارات العربیة المتحدة "
 
 #: templates/landing/inc/content.html:55
-#, fuzzy
 #| msgid "Oticon&nbsp;More&trade;"
 msgid "Otex&nbsp;More&trade;"
-msgstr "يمكننا الاحتفاظ بنفس الصورة الآن"
+msgstr " "
 
 #: templates/landing/inc/content.html:56
 msgid "More potential than ever"
@@ -163,7 +179,7 @@ msgstr ""
 
 #: templates/landing/inc/content.html:95
 msgid "New superior technology for everyone"
-msgstr "ليس لدينا مراجعات في الوقت الحالي"
+msgstr " "
 
 #: templates/landing/inc/content.html:98
 msgid ""
@@ -173,26 +189,23 @@ msgid ""
 "speech than ever before for your patients with severe-to-profound hearing "
 "loss."
 msgstr ""
-"تنفرد Oticon Xceed بكونها أقوى أداة مساعدة للسمع في العالم مع with 146 dB "
-"SPL and 87 dB full-on-gain . * مدعومًا بمنصة Velox S ™ ، بالاضافة لتقنية "
-"Brain Hearing ™ المميزة و الفريدة ز\n"
-" توفر Oticon Xceed انتقائية و وضوحاً  إلى الحديث أكثر من أي وقت مضى للمرضى "
-"الذين يعانون من ضعف سمع حاد إلى شديد"
+"تنفرد Oticon Xceed بكونها أقوى أداة مساعدة للسمع في العالم مع with 146 dB SPL and 87 dB full-on-gain . * مدعومًا بمنصة Velox S ™ ، بالاضافة لتقنية Brain Hearing ™ المميزة و الفريدة ز\n"
+" توفر Oticon Xceed انتقائية و وضوحاً  إلى الحديث أكثر من أي وقت مضى للمرضى الذين يعانون من ضعف سمع حاد إلى شديد"
 
 #: templates/landing/inc/content.html:129
 msgid "Help make a difference"
-msgstr "هل يمكننا وضع شيء آخر بدلاً من ذلك أم يجب أن يكون مراجعات فقط؟"
+msgstr " "
 
 #: templates/landing/inc/content.html:131
 msgid ""
 "Opn S takes the open sound experience to the next level, offering more "
-"flexibility for you and more choices for your patients. Powered by the Velox "
-"S™ platform, Opn S allows patients to enjoy speech understanding on par with "
-"normal hearing. *"
+"flexibility for you and more choices for your patients. Powered by the Velox"
+" S™ platform, Opn S allows patients to enjoy speech understanding on par "
+"with normal hearing. *"
 msgstr ""
-"ارتقت Opn s بتجربة سماع الصوت في النطاق المفتوح إلى مستوى أعلى لتضيف  المزيد "
-"من المرونة لك والمزيد من الخيارات للمرضى . مدعومًا بمنصة Velox S ™ ، تتيح Opn "
-"S للمرضى الاستمتاع بسماع الكلام بشكل مفهوم على قدم المساواة مع السمع "
+"ارتقت Opn s بتجربة سماع الصوت في النطاق المفتوح إلى مستوى أعلى لتضيف  المزيد"
+" من المرونة لك والمزيد من الخيارات للمرضى . مدعومًا بمنصة Velox S ™ ، تتيح "
+"Opn S للمرضى الاستمتاع بسماع الكلام بشكل مفهوم على قدم المساواة مع السمع "
 "الطبيعي. *"
 
 #: templates/landing/inc/content.html:148
@@ -206,9 +219,7 @@ msgstr " "
 #: templates/landing/inc/content.html:176
 msgid ""
 "\n"
-"                                    Oticon Siya in-the-ear hearing aids "
-"capture and amplify the natural, rich details of sounds. They help improve "
-"your speech understanding, so you can experience the joy of everyday life.\n"
+"                                    Oticon Siya in-the-ear hearing aids capture and amplify the natural, rich details of sounds. They help improve your speech understanding, so you can experience the joy of everyday life.\n"
 "                                    <br>\n"
 "                                    <br>\n"
 "                                    Oticon Siya highlights: <br>\n"
@@ -219,9 +230,7 @@ msgid ""
 "                                "
 msgstr ""
 "\n"
-"تقوم سماعات Oticon Siya - طراز داخل الأذن - بتكبير و التقاط التفاصيل "
-"الطبيعية و الدقيقه للأصوات المحيطة كما تساعد على تحسين درجة التقاط تفاصيل "
-"كلمات الحوار مما يعزز الشعور بالفهم و الراحة.<br><br>\n"
+"تقوم سماعات Oticon Siya - طراز داخل الأذن - بتكبير و التقاط التفاصيل الطبيعية و الدقيقه للأصوات المحيطة كما تساعد على تحسين درجة التقاط تفاصيل كلمات الحوار مما يعزز الشعور بالفهم و الراحة.<br><br>\n"
 "تتميز Oticon Siya بـ :<br>\n"
 "• جودة صوت رائعة<br>\n"
 "• اتصال لاسلكي سهل <br>\n"
@@ -245,7 +254,8 @@ msgid ""
 "Looking for hearing aid support like how to clean your hearing aids or "
 "change your batteries? "
 msgstr ""
-" هل تبحث عن الدعم ، كيفية تنظيف معيناتك السمعية أو تغيير البطاريات الخاصة بك؟"
+" هل تبحث عن الدعم ، كيفية تنظيف معيناتك السمعية أو تغيير البطاريات الخاصة "
+"بك؟"
 
 #: templates/landing/inc/content.html:249
 msgid "Get support"
@@ -297,9 +307,7 @@ msgid ""
 "relationships. With OTEX, we guarantee a 100%% customer satisfaction with "
 "assurance of high-quality and authentic product distribution in UAE."
 msgstr ""
-"تضمن اوتکس توزيع المنتجات الأصلية في الإمارات العربية المتحدة ، كونها الموزع "
-"الرئيسي والوحيد للعلامة التجارية اوتیکون . يؤكد فريق أوتيكس على بذل قصارى "
-"الجهد  لتوفير افضل مستوى للخدمة و تلبية المتطلبات الفردية لعملائنا.\n"
+"تضمن اوتکس توزيع المنتجات الأصلية في الإمارات العربية المتحدة ، كونها الموزع الرئيسي والوحيد للعلامة التجارية اوتیکون . يؤكد فريق أوتيكس على بذل قصارى الجهد  لتوفير افضل مستوى للخدمة و تلبية المتطلبات الفردية لعملائنا.\n"
 "."
 
 #: templates/landing/inc/products-content.html:26
@@ -320,6 +328,5 @@ msgstr "الموزع الرسمي لشركة اوتیکون في الإمارا�
 #~ msgid "Otex is here"
 #~ msgstr "الموزع الرسمي لشركة اوتیکون في الإمارات العربية المتحدة"
 
-#~ msgid ""
-#~ "Life-changing technology designed to empower people with hearing loss"
+#~ msgid "Life-changing technology designed to empower people with hearing loss"
 #~ msgstr " غير حياتك التكنولوجيا"

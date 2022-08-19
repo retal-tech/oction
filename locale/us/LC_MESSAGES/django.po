@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-19 10:01+0000\n"
+"POT-Creation-Date: 2022-08-19 10:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -125,15 +125,15 @@ msgid "Connect to otex"
 msgstr ""
 
 #: templates/landing/inc/content.html:26
-msgid "Otex Hearing Care Solutions"
+msgid "Otex Medical Equipments Trading L.L.C."
 msgstr ""
 
 #: templates/landing/inc/content.html:27
-msgid "Otex is here"
+msgid "Official Distributor of Oticon in UAE"
 msgstr ""
 
 #: templates/landing/inc/content.html:55
-msgid "Oticon&nbsp;More&trade;"
+msgid "Otex&nbsp;More&trade;"
 msgstr ""
 
 #: templates/landing/inc/content.html:56

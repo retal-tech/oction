@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-19 10:01+0000\n"
+"POT-Creation-Date: 2022-08-19 10:33+0000\n"
 "PO-Revision-Date: 2022-07-24 09:33+0000\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -130,15 +130,17 @@ msgid "Connect to otex"
 msgstr " خيارات الاتصال"
 
 #: templates/landing/inc/content.html:26
-msgid "Otex Hearing Care Solutions"
-msgstr " شركة اوتيکس لتجارة المعدات المعدات الطبية ذ.م.م."
+msgid "Otex Medical Equipments Trading L.L.C."
+msgstr ""
 
 #: templates/landing/inc/content.html:27
-msgid "Otex is here"
-msgstr "الموزع الرسمي لشركة اوتیکون في الإمارات العربية المتحدة"
+msgid "Official Distributor of Oticon in UAE"
+msgstr ""
 
 #: templates/landing/inc/content.html:55
-msgid "Oticon&nbsp;More&trade;"
+#, fuzzy
+#| msgid "Oticon&nbsp;More&trade;"
+msgid "Otex&nbsp;More&trade;"
 msgstr "يمكننا الاحتفاظ بنفس الصورة الآن"
 
 #: templates/landing/inc/content.html:56
@@ -311,6 +313,12 @@ msgstr "المنتجات"
 #| msgid "Otex is here"
 msgid "Otex products are here"
 msgstr "الموزع الرسمي لشركة اوتیکون في الإمارات العربية المتحدة"
+
+#~ msgid "Otex Hearing Care Solutions"
+#~ msgstr " شركة اوتيکس لتجارة المعدات المعدات الطبية ذ.م.م."
+
+#~ msgid "Otex is here"
+#~ msgstr "الموزع الرسمي لشركة اوتیکون في الإمارات العربية المتحدة"
 
 #~ msgid ""
 #~ "Life-changing technology designed to empower people with hearing loss"

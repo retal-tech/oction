@@ -9,8 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-19 10:43+0000\n"
-"PO-Revision-Date: 2022-07-24 09:33+0000\n"
-
+"PO-Revision-Date: 2022-08-24 12:33+0000\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -140,19 +139,22 @@ msgstr "للتواصل"
 
 #: templates/landing/inc/about-us-content.html:85
 msgid "Landline: +971 43547887<br>Whatsapp: +971 50 829 8757<br>"
-msgstr "الارضي: +971 43547887<br>واتساب: +971 50 829 8757"
+msgstr ""
+"الارضي:  ٩٧١٤٣٥٤٧٨٨٧+\n"
+"<br>\n"
+"واتساب: ٩٧١٥٠٨٢٩٨٧٥٧+"
 
 #: templates/landing/inc/about-us-content.html:109
 msgid "otex social media"
-msgstr ""
+msgstr "مواقع التواصل الاجتماعي"
 
 #: templates/landing/inc/content.html:26
 msgid "Otex Medical Equipments Trading L.L.C."
-msgstr "شركة ا وتي کس لتجارة المعدات المعدات الطبية ذ.م.م. "
+msgstr "شركة ا وتيکس لتجارة المعدات المعدات الطبية ذ.م.م. "
 
 #: templates/landing/inc/content.html:27
 msgid "Official Distributor of Oticon in UAE"
-msgstr "الموزع الرسمي لشركة اوتیکون في اإلمارات العربیة المتحدة "
+msgstr "الموزع الرسمي لشركة اوتیکون في  الامارات العربیة المتحدة "
 
 #: templates/landing/inc/content.html:55
 #| msgid "Oticon&nbsp;More&trade;"
@@ -173,7 +175,7 @@ msgid ""
 "situations so you can go through your day with more confidence "
 "and convenience."
 msgstr ""
-"،حيث يمكنك  مع Oticon Zircon   الحصول على مجموعة واسعة من خيارات الاتصال "
+"حيث يمكنك  مع Oticon Zircon   الحصول على مجموعة واسعة من خيارات الاتصال "
 "المختلفة مما يساعدك على الاستمتاع بتجربة سمع عالية الجودة في مواقف الحياة "
 "اليومية مما يملأ يومك بمزيد من الثقة والراحة"
 
@@ -206,7 +208,7 @@ msgstr ""
 "ارتقت Opn s بتجربة سماع الصوت في النطاق المفتوح إلى مستوى أعلى لتضيف  المزيد"
 " من المرونة لك والمزيد من الخيارات للمرضى . مدعومًا بمنصة Velox S ™ ، تتيح "
 "Opn S للمرضى الاستمتاع بسماع الكلام بشكل مفهوم على قدم المساواة مع السمع "
-"الطبيعي. *"
+"الطبيعي. "
 
 #: templates/landing/inc/content.html:148
 msgid "Oticon is committed to diversity and inclusion."
@@ -311,19 +313,16 @@ msgstr ""
 "."
 
 #: templates/landing/inc/products-content.html:26
-#, fuzzy
 #| msgid "Products"
 msgid "Otex Products"
 msgstr "المنتجات"
 
 #: templates/landing/inc/products-content.html:27
-#, fuzzy
 #| msgid "Otex is here"
 msgid "Otex products are here"
-msgstr "الموزع الرسمي لشركة اوتیکون في الإمارات العربية المتحدة"
+msgstr " "
 
 #, fuzzy
-#~| msgid "Connectivity options"
 #~ msgid "Connect to otex"
 #~ msgstr " خيارات الاتصال"
 

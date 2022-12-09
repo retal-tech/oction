@@ -2,7 +2,7 @@ version: "3.6"
 
 services:
  db:
-    container_name: ${POSTGRES_HOST}
+    container_name: otex_${POSTGRES_HOST}
     image: postgres:latest
     volumes:
       - .volumes/postgres_volume:/var/lib/postgresql/data/

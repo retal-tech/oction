@@ -13,9 +13,10 @@ services:
       - ${POSTGRES_PORT}
 
  backend:
-    build:
-      context: .
-      dockerfile: _prod/backend/Dockerfile
+    image: nexus.finopia.dev/oction_web:latest2
+   #build:
+   #  context: .
+   #  dockerfile: _prod/backend/Dockerfile
     command: >
      bash -c "gunicorn ${APP_NAME}.wsgi:application --workers=5  --bind 0.0.0.0:8000"
     volumes:
@@ -39,31 +40,6 @@ services:
      - ./_static:/code/_static
      - ./_media:/code/_media
      - ./_prod/nginx/conf.d:/etc/nginx/conf.d/
-
-
- redis_cache:
-   image: redis:latest
-   ports:
-     - ${REDIS_PORT}:6379
-   depends_on:
-     - db
-
- prometheus:
-   image: prom/prometheus:v2.14.0
-   volumes:
-     - ./_prod/monitoring/prometheus/:/etc/prometheus/
-   command:
-     - --config.file=/etc/prometheus/prometheus.yml
-   expose:
-     - 9090
-
- grafana:
-   image: grafana/grafana:6.5.2
-   environment:
-     - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_PASSWORD}
-     - GF_SECURITY_ADMIN_USER=${GRAFANA_USER}
-   expose:
-     - 3000
 
 
 volumes:

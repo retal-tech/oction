@@ -14,9 +14,10 @@ services:
       - ${POSTGRES_PORT}
 
  web:
-    build:
-      context: .
-      dockerfile: _prod/backend/Dockerfile
+    image: nexus.finopia.dev/oction_web:latest
+    #build:
+    #  context: .
+    # dockerfile: _prod/backend/Dockerfile
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
       - ./:/code
@@ -24,14 +25,6 @@ services:
       - ${NGINX_EXPOSE}:8000
     depends_on:
       - db
-
- redis_cache:
-   image: redis:latest
-   ports:
-     - ${REDIS_PORT}:6379
-   volumes:
-     - .volumes/redis_volume:/data
-
 
 volumes:
   db_new:
